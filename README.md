@@ -1,4 +1,5 @@
-Based python3.13
+Based python3.13  
+Developed on August 25, 2022
 
 # Getting Started
 ```
@@ -19,5 +20,8 @@ source myenv/Scripts/activate
 (myenv) python index.py
 ```
 
-
-
+# Exe Build
+```
+pyinstaller --onefile --windowed --add-data="resources/*;resources" --add-data "src/*;src" index.py
+# and add resources folder into dist folder
+```
